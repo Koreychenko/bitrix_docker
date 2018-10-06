@@ -14,7 +14,7 @@ services:
     volumes:
     - ./html:/var/www/html:delegated
   db:
-    image: mariadb
+    build: ./mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: bitrix
