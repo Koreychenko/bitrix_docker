@@ -14,7 +14,7 @@ services:
     volumes:
     - ./html:/var/www/html:delegated
   db:
-    image: percona:5.6
+    image: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: bitrix
