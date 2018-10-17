@@ -18,5 +18,3 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: bitrix
-  adminer:
-    image: adminer
